@@ -1,15 +1,21 @@
 
 development:
+  host: localhost
   adapter: postgresql
   encoding: unicode
   database: SurveyMonkey2_dev
   pool: 5
+  username:
+  password:
 
 
 test:
+  host: localhost
   adapter: postgresql
   encoding: unicode
   database: SurveyMonkey2_test
   pool: 5
+  username:
+  password:
 
 
