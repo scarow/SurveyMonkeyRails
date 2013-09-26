@@ -1,0 +1,6 @@
+<%= form_for @survey do |survey_form| %>
+  Title: <%= survey_form.text_field :title %>
+  Description : <%= survey_form.text_field :description %>
+
+  <%= survey_form.submit %>
+<% end %>
